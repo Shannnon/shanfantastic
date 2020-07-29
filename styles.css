@@ -1,0 +1,78 @@
+* {
+    text-align: center;
+    font-family: 'Hind Madurai', sans-serif;
+    color:white;
+}
+
+h1 {
+    margin-top: 32px;
+    margin-left: .25in;
+    text-align: left;
+    
+}
+.elm-embedded{
+    border: solid orange 3px;
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+.heading {
+    color: skyblue;
+}
+.link {
+    display: inline-block;
+    border: solid blue 3px;
+    background-color: lightskyblue;
+    min-width: 225px;
+    max-width: 225px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 1in;
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 14px;
+    font-size: larger;
+    font-variant-caps: small-caps;
+    font-display: midnightblue;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    align-content: center;
+    border: solid blue 20px;
+    max-width: calc(100% - 6px);
+    width: 750px;
+    height: auto;
+    margin: 8px auto;
+    border-radius: 50pc;
+    image-orientation: 20rad;
+       
+}
+
+.words {
+    margin: 64px 16px 16px;
+}
+
+@media only screen and (min-width: 600px) {
+    img {
+        width: 450px;
+    }
+    .words {
+        margin: intial 15%;
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.links a {
+    padding: 15px;
+    margin: 0 2px;
+    margin-top: 1in;
+}
+
+.links a i {
+    font-size: 30px;
+}
